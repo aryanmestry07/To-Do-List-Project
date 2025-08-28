@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>To-Do List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main_div">
+     <h1>The To-Do List</h1>
+  </div>
+
+  <div class="input-area">
+    <label>Enter Task: </label>
+    <input type="text" id="task" name="task">
+    <input type="button" id="add" value="+ Add" onclick="addTask()">
+</div>
+
+
+  <div class="list">
+    <h2>Your Tasks</h2>
+    <ul id="output"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
